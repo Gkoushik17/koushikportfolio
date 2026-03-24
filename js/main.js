@@ -1,6 +1,5 @@
 /* ===================================
    MAIN JS - Core Portfolio Logic
-   Scroll animations, theme, cursor, typing, etc.
    =================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -27,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
             cursorDot.style.top = mouseY + 'px';
         });
 
-        // Smooth follow for outline
         function animateCursor() {
             outlineX += (mouseX - outlineX) * 0.12;
             outlineY += (mouseY - outlineY) * 0.12;
@@ -37,8 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         animateCursor();
 
-        // Hover effect
-        const hoverElements = document.querySelectorAll('a, button, input, textarea, [data-magnetic], .project-card');
+        const hoverElements = document.querySelectorAll('a, button, input, textarea, [data-magnetic], .project-card, .skill-item, .achievement-card, .edu-card');
         hoverElements.forEach(el => {
             el.addEventListener('mouseenter', () => {
                 cursorDot.classList.add('hover');
@@ -129,7 +126,6 @@ document.addEventListener('DOMContentLoaded', () => {
         navLinksContainer.classList.toggle('active');
     });
 
-    // Close menu on link click
     navLinksContainer.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', () => {
             hamburger.classList.remove('active');
@@ -171,12 +167,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (!isDeleting && charIndex === current.length) {
-            typeSpeed = 2000; // Pause at end
+            typeSpeed = 2000;
             isDeleting = true;
         } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
             wordIndex = (wordIndex + 1) % words.length;
-            typeSpeed = 300; // Pause before new word
+            typeSpeed = 300;
         }
 
         setTimeout(typeEffect, typeSpeed);
@@ -190,7 +186,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const revealObserver = new IntersectionObserver((entries) => {
         entries.forEach((entry, index) => {
             if (entry.isIntersecting) {
-                // Stagger the animation
                 setTimeout(() => {
                     entry.target.classList.add('active');
                 }, index * 100);
@@ -233,44 +228,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     statNumbers.forEach(el => counterObserver.observe(el));
 
-    // ===== SKILL BAR ANIMATION =====
-    const skillBars = document.querySelectorAll('.skill-bar-fill');
+    // ===== SKILL TABS =====
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabPanels = document.querySelectorAll('.tab-panel');
 
-    const skillObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const width = entry.target.getAttribute('data-width');
-                entry.target.style.setProperty('--skill-width', width + '%');
-                entry.target.classList.add('animate');
-                skillObserver.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.5 });
-
-    skillBars.forEach(el => skillObserver.observe(el));
-
-    // ===== PROJECT FILTER =====
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const projectCards = document.querySelectorAll('.project-card');
-
-    filterBtns.forEach(btn => {
+    tabBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            // Update active button
-            filterBtns.forEach(b => b.classList.remove('active'));
+            tabBtns.forEach(b => b.classList.remove('active'));
+            tabPanels.forEach(p => p.classList.remove('active'));
             btn.classList.add('active');
-
-            const filter = btn.getAttribute('data-filter');
-
-            projectCards.forEach(card => {
-                if (filter === 'all' || card.getAttribute('data-category') === filter) {
-                    card.classList.remove('hidden');
-                    card.style.animation = 'none';
-                    card.offsetHeight; // Trigger reflow
-                    card.style.animation = 'fadeIn 0.5s ease forwards';
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
+            const tabId = btn.getAttribute('data-tab');
+            document.querySelector(`.tab-panel[data-panel="${tabId}"]`).classList.add('active');
         });
     });
 
