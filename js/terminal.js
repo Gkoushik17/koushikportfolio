@@ -44,8 +44,9 @@ I scored 100% in Matriculation and 91% in Intermediate.
                 output: `🛠️ <strong>Technical Skills</strong>
 
 <strong>AI/ML & Data:</strong> Scikit-Learn, Pandas, NumPy, Matplotlib, TensorFlow
-<strong>Languages:</strong>    Python, R, SQL, Java, C++, JavaScript
+<strong>Languages:</strong>    Python, SQL, Java, C++, JavaScript
 <strong>Frontend:</strong>     HTML, CSS, React.js, Tailwind CSS
+<strong>Backend/DB:</strong>   Node.js, Express.js, MongoDB
 <strong>Tools:</strong>        Git, GitHub, Power BI, VS Code, Jupyter, Colab
 
 <strong>Soft Skills:</strong>  Analytical Thinking, Problem Solving, Work Ethic
@@ -73,15 +74,16 @@ Jul 2020 — May 2021`
             certs: {
                 output: `📜 <strong>Certifications</strong>
 
-  ✅ IBM Data Science Professional Certificate
-  ✅ Google Data Analytics Professional Certificate
   ✅ Oracle Cloud Infrastructure 2025 Certified
      Generative AI Professional — Oracle (Aug 2025)
   ✅ Cloud Computing — NPTEL (Apr 2025)
+  ✅ Unrevealing Python towards ML/AI — CSE Pathshala (Mar 2024)
+  ✅ Microlearning in Data Science — BoardInfinity (Feb 2024)
 
 <strong>Achievements:</strong>
+  🏆 GATE 2026 Qualified
   🏆 24-hour Code-A-Hunt Hackathon — Coding Blocks (Mar 2024)
-  🥇 Academic Excellence Award — 100% in Matriculation (May 2021)`
+  🥇 1st Place — Cybersecurity Workshop — Secuneus (Nov 2023)`
             },
             hobbies: {
                 output: `🎮 <strong>When I'm Not Coding...</strong>
@@ -115,9 +117,9 @@ Jul 2020 — May 2021`
      Comprehensive business intelligence dashboard
      Tech: Power BI, Python, Data Wrangling, SQL
 
-  3️⃣ <strong>Automated Deadlock Detection System</strong>
-     Interactive Resource Validator
-     Tech: React, TypeScript, Python
+  3️⃣ <strong>Organica</strong>
+     Organic E-Commerce Platform
+     Tech: React, Node.js, Express, MongoDB
 
   📁 Scroll down to see all projects with details!`
             },
