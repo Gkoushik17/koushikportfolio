@@ -1,0 +1,7 @@
+# Override GitHub linguist language detection
+# Mark this repository as HTML/CSS/JavaScript (not Python)
+*.py linguist-detectable=false
+*.pdf linguist-detectable=false
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
