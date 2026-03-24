@@ -46,7 +46,6 @@ I scored 100% in Matriculation and 91% in Intermediate.
 <strong>AI/ML & Data:</strong> Scikit-Learn, Pandas, NumPy, Matplotlib, TensorFlow
 <strong>Languages:</strong>    Python, SQL, Java, C++, JavaScript
 <strong>Frontend:</strong>     HTML, CSS, React.js, Tailwind CSS
-<strong>Backend/DB:</strong>   Node.js, Express.js, MongoDB
 <strong>Tools:</strong>        Git, GitHub, Power BI, VS Code, Jupyter, Colab
 
 <strong>Soft Skills:</strong>  Analytical Thinking, Problem Solving, Work Ethic
@@ -117,9 +116,9 @@ Jul 2020 — May 2021`
      Comprehensive business intelligence dashboard
      Tech: Power BI, Python, Data Wrangling, SQL
 
-  3️⃣ <strong>Organica</strong>
-     Organic E-Commerce Platform
-     Tech: React, Node.js, Express, MongoDB
+  3️⃣ <strong>Automated Deadlock Detection System</strong>
+     Interactive Resource Validator
+     Tech: React, TypeScript, Python
 
   📁 Scroll down to see all projects with details!`
             },

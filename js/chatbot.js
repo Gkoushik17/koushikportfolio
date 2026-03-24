@@ -29,14 +29,14 @@ class Chatbot {
             skills: {
                 patterns: ['skills', 'technologies', 'tech stack', 'programming', 'languages', 'what can you do', 'what do you know', 'expertise', 'tools'],
                 responses: [
-                    "Koushik has a strong tech stack:\n\n🌐 **Data & AI:** NumPy, Pandas, Scikit-Learn, TensorFlow, Predictive Modeling\n💻 **Languages:** Python, SQL, Java, C++, JavaScript\n🕸️ **Web:** HTML, CSS, React.js, Node.js, Express.js, MongoDB\n🛠️ **Tools:** Git, GitHub, Power BI, VS Code, Jupyter\n\nHe's particularly passionate about Data Science and AI/ML!",
+                    "Koushik has a strong tech stack:\n\n🌐 **Data & AI:** NumPy, Pandas, Scikit-Learn, TensorFlow, Predictive Modeling\n💻 **Languages:** Python, SQL, Java, C++, JavaScript\n🕸️ **Web:** HTML, CSS, React.js, Tailwind CSS\n🛠️ **Tools:** Git, GitHub, Power BI, VS Code, Jupyter\n\nHe's particularly passionate about Data Science and AI/ML!",
                     "Koushik works heavily with data! He's proficient in Python, SQL, Java, and C++ for languages, Scikit-Learn and Pandas for Machine Learning, and has Full Stack experience (React) as a secondary skill! Want to know about a specific project?"
                 ]
             },
             projects: {
                 patterns: ['projects', 'work', 'portfolio', 'what have you built', 'showcase', 'demos', 'examples', 'applications'],
                 responses: [
-                    "Koushik has built some data-driven and full-stack projects! 🚀\n\n📊 **Customer Churn Prediction** — Machine learning pipeline to predict telecom churn.\n📈 **Sales Dashboard Analysis** — Power BI visualization uncovering global sales trends.\n🌿 **Organica** — Codebase hosted on bandalamahesh's GitHub.\n\nScroll to the Projects section to see them in detail!",
+                    "Koushik has built some data-driven projects! 🚀\n\n📊 **Customer Churn Prediction** — Machine learning pipeline using Scikit-Learn to predict telecom churn.\n📈 **Sales Dashboard Analysis** — Power BI visualization uncovering global sales trends.\n🔒 **Deadlock Detection System** — Banker's Algorithm visualization (React, Python).\n\nScroll to the Projects section to see them in detail!",
                 ]
             },
             education: {
