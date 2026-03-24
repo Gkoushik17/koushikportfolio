@@ -28,31 +28,32 @@ class Terminal {
             about: {
                 output: `👋 <strong>Hi! I'm Koushik Goteti</strong>
 
-I'm a B.Tech CSE student at Lovely Professional University,
-Punjab, with a CGPA of 7.95.
+I'm an Aspiring Data Scientist and B.Tech CSE student at 
+Lovely Professional University, with a CGPA of 7.95.
 
-I'm passionate about Full Stack Development, AI/ML, and 
-building interactive applications that solve real problems.
+I'm passionate about Machine Learning, Data Analytics, and
+building predictive models that solve real problems.
+(I also have Full Stack experience as a secondary skill!)
 
 I scored 100% in Matriculation and 91% in Intermediate.
 
-💡 I believe in learning by building — every project
-   is an opportunity to grow!`
+💡 I believe in learning by doing — every dataset
+   is an opportunity to discover insights!`
             },
             skills: {
                 output: `🛠️ <strong>Technical Skills</strong>
 
-<strong>Languages:</strong>    Python, C, C++, Java, SQL, JavaScript
-<strong>Frontend:</strong>     HTML, CSS, JavaScript, React.js, Tailwind
-<strong>AI/ML:</strong>        NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn
+<strong>AI/ML & Data:</strong> Scikit-Learn, Pandas, NumPy, Matplotlib, TensorFlow
+<strong>Languages:</strong>    Python, R, SQL, Java, C++, JavaScript
+<strong>Frontend:</strong>     HTML, CSS, React.js, Tailwind CSS
 <strong>Tools:</strong>        Git, GitHub, Power BI, VS Code, Jupyter, Colab
 
-<strong>Soft Skills:</strong>  Problem Solving, Time Management, Work Ethic
+<strong>Soft Skills:</strong>  Analytical Thinking, Problem Solving, Work Ethic
 
-📊 Proficiency:  ████████████████████░  88% Languages
-                 █████████████████░░░░  85% Web Tech
-                 ███████████████░░░░░░  78% AI/ML
-                 ████████████████░░░░░  82% Tools`
+📊 Proficiency:  ████████████████████░  88% AI & Data
+                 ██████████████████░░░  85% Languages
+                 ███████████████░░░░░░  75% Web Tech
+                 █████████████████░░░░  82% Tools`
             },
             education: {
                 output: `🎓 <strong>Education</strong>
@@ -72,15 +73,15 @@ Jul 2020 — May 2021`
             certs: {
                 output: `📜 <strong>Certifications</strong>
 
-  ✅ Oracle Cloud Infrastructure 2025 Certified 
+  ✅ IBM Data Science Professional Certificate
+  ✅ Google Data Analytics Professional Certificate
+  ✅ Oracle Cloud Infrastructure 2025 Certified
      Generative AI Professional — Oracle (Aug 2025)
   ✅ Cloud Computing — NPTEL (Apr 2025)
-  ✅ Unrevealing Python towards ML/AI — CSE Pathshala (Mar 2024)
-  ✅ Microlearning in Data Science — BoardInfinity (Feb 2024)
 
 <strong>Achievements:</strong>
   🏆 24-hour Code-A-Hunt Hackathon — Coding Blocks (Mar 2024)
-  🥇 1st Place — Cybersecurity Workshop — Secuneus (Nov 2023)`
+  🥇 Academic Excellence Award — 100% in Matriculation (May 2021)`
             },
             hobbies: {
                 output: `🎮 <strong>When I'm Not Coding...</strong>
@@ -106,17 +107,17 @@ Jul 2020 — May 2021`
             projects: {
                 output: `🚀 <strong>My Projects</strong>
 
-  1️⃣ <strong>Automated Deadlock Detection System</strong>
-     Interactive system with Banker's Algorithm
-     Tech: React, TypeScript, Python, ReactFlow
+  1️⃣ <strong>Customer Churn Prediction Model</strong>
+     ML pipeline using Scikit-Learn & Pandas
+     Tech: Python, Pandas, Scikit-Learn, Matplotlib
 
-  2️⃣ <strong>Astro Chat Bot</strong>
-     AI-powered Astronomy chatbot with Gemini API
-     Tech: React, Gemini AI, Supabase, Tailwind
+  2️⃣ <strong>Global Sales Data Analysis & Dashboard</strong>
+     Comprehensive business intelligence dashboard
+     Tech: Power BI, Python, Data Wrangling, SQL
 
-  3️⃣ <strong>Mental Health Simulator</strong>
-     Desktop app with mood tracking & DSA
-     Tech: Java, Java Swing, DSA, JSON
+  3️⃣ <strong>Automated Deadlock Detection System</strong>
+     Interactive Resource Validator
+     Tech: React, TypeScript, Python
 
   📁 Scroll down to see all projects with details!`
             },

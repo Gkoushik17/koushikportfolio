@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ===== TYPING ANIMATION =====
     const typingElement = document.getElementById('typing-text');
-    const words = ['CSE Student', 'Full Stack Developer', 'AI/ML Enthusiast', 'Problem Solver', 'Tech Explorer'];
+    const words = ['Data Scientist', 'Machine Learning Engineer', 'AI & Data Enthusiast', 'Full Stack Developer', 'Problem Solver'];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;

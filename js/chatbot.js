@@ -29,14 +29,14 @@ class Chatbot {
             skills: {
                 patterns: ['skills', 'technologies', 'tech stack', 'programming', 'languages', 'what can you do', 'what do you know', 'expertise', 'tools'],
                 responses: [
-                    "Koushik has a strong tech stack:\n\n💻 **Languages:** Python, C, C++, Java, SQL, JavaScript\n🌐 **Web:** HTML, CSS, React.js, Tailwind CSS\n🤖 **AI/ML:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn\n🛠️ **Tools:** Git, GitHub, Power BI, VS Code, Jupyter, Google Colab\n\nHe's particularly passionate about Full Stack Development and AI!",
-                    "Koushik works across multiple domains! He's proficient in Python, Java, C++, and JavaScript for languages, React.js for frontend, and has strong AI/ML skills with libraries like Scikit-Learn and Pandas. Want to know about a specific area?"
+                    "Koushik has a strong tech stack:\n\n🌐 **Data & AI:** NumPy, Pandas, Scikit-Learn, TensorFlow, Predictive Modeling\n💻 **Languages:** Python, R, SQL, Java, C++, JavaScript\n🕸️ **Web:** HTML, CSS, React.js, Tailwind CSS\n🛠️ **Tools:** Git, GitHub, Power BI, VS Code, Jupyter\n\nHe's particularly passionate about Data Science and AI/ML!",
+                    "Koushik works heavily with data! He's proficient in Python, SQL, and R for languages, Scikit-Learn and Pandas for Machine Learning, and has Full Stack experience (React) as a secondary skill! Want to know about a specific project?"
                 ]
             },
             projects: {
                 patterns: ['projects', 'work', 'portfolio', 'what have you built', 'showcase', 'demos', 'examples', 'applications'],
                 responses: [
-                    "Koushik has built some cool projects! 🚀\n\n🔒 **Deadlock Detection System** — Interactive resource allocation visualizer with Banker's Algorithm (React, TypeScript, Python)\n🌌 **Astro Chat Bot** — AI-powered astronomy chatbot with Gemini API and voice assistant (React, Supabase)\n🧠 **Mental Health Simulator** — Desktop app with mood tracking using Java DSA\n\nScroll to the Projects section to see them in detail!",
+                    "Koushik has built some data-driven projects! 🚀\n\n📊 **Customer Churn Prediction** — Machine learning pipeline using Scikit-Learn to predict telecom churn.\n📈 **Sales Dashboard Analysis** — Power BI visualization uncovering global sales trends.\n🔒 **Deadlock Detection System** — Banker's Algorithm visualization (React, Python).\n\nScroll to the Projects section to see them in detail!",
                 ]
             },
             education: {
@@ -54,7 +54,7 @@ class Chatbot {
             achievements: {
                 patterns: ['achievements', 'awards', 'hackathon', 'certifications', 'certificates', 'competition', 'won', 'first place'],
                 responses: [
-                    "Koushik has some great achievements! 🏆\n\n🥇 **1st Place** — 7-day Cybersecurity Workshop by Secuneus\n💻 Competed in **24-hour Code-A-Hunt Hackathon** by Coding Blocks\n\n**Certifications:**\n✅ Oracle Cloud GenAI Professional (Aug 2025)\n✅ Cloud Computing — NPTEL (Apr 2025)\n✅ Python towards ML/AI — CSE Pathshala\n✅ Data Science — BoardInfinity\n\nHe also scored 100% in Matriculation! 🎯"
+                    "Koushik has some great achievements! 🏆\n\n🥇 **Academic Excellence** — Perfect 100% score (10/10 GPA) in Matriculation from Bhashyam High School!\n💻 Competed in **24-hour Code-A-Hunt Hackathon** by Coding Blocks\n\n**Certifications:**\n✅ IBM Data Science Professional\n✅ Google Data Analytics\n✅ Oracle Cloud GenAI Professional\n✅ Cloud Computing — NPTEL"
                 ]
             },
             location: {
@@ -92,7 +92,7 @@ class Chatbot {
             experience: {
                 patterns: ['experience', 'work', 'internship', 'job', 'professional'],
                 responses: [
-                    "Koushik is currently a B.Tech CSE student at LPU and is actively building his portfolio through projects and certifications.\n\n🔬 **Training:** 70-hour Java DSA program at Cipher Schools\n🏆 **Hackathons:** Code-A-Hunt (Coding Blocks)\n🥇 **Competitions:** 1st place in Cybersecurity Workshop\n\nHe's open to internships and entry-level opportunities! 📩 Reach out via koushik.goteti17@gmail.com"
+                    "Koushik is currently a B.Tech CSE student at LPU and is actively building his portfolio through data science projects and certifications.\n\n🔬 **Focus:** Machine Learning, Predictive Modeling, and Data Analytics\n🏆 **Hackathons:** Code-A-Hunt (Coding Blocks)\n🥇 **Academics:** Maintained a strong academic record with 100% in Matriculation.\n\nHe's open to internships and entry-level Data Science opportunities! 📩 Reach out via koushik.goteti17@gmail.com"
                 ]
             }
         };
